@@ -1,0 +1,81 @@
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title></title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://use.typekit.net/hbi2boz.css">
+      <link rel="stylesheet" href="../styles/styles.css">
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"/>
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"/>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/css/foundation.min.css" crossorigin="anonymous">
+
+      <script src="https://unpkg.com/htmlincludejs"></script>
+  </head>
+
+    <body>
+      <include src="../pages/nav.html"></include>
+
+      <div class="grid-x">
+        <div class="cell small-3">
+            <div class="sidebar">
+                <div class="sidebar-header">
+                  <p class="subtitle-scale-2">Table of Contents</p>
+                </div>
+                <nav class="nav-menu">
+                    <div class="nav-item regular active" data-tab="components-cards"><p class="body-scale-1 nav-text">Nav 1</p></div>
+
+                    <div class="nav-item regular nav-parent" data-tab="nav2">
+                        <div class="nav-text grid-x">
+                            <div class="cell medium-6 large-10">
+                              <p class="body-scale-1">Nav 2</p>
+                            </div>
+                            <div class="cell medium-6 large-2">
+                              <i class="ph ph-caret-down drop-down size24"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="nav-sub-menu">
+                        <div class="nav-item sub" data-tab="sub1" data-parent="nav2"><p class="body-base">Sub 1</p></div>
+                        <div class="nav-item sub" data-tab="sub2" data-parent="nav2"><p class="body-base">Sub 2</p></div>
+                    </div>
+
+                    <div class="nav-item regular" data-tab="nav3"><p class="body-scale-1 nav-text">Nav 3</p></div>
+                </nav>
+            </div>
+        </div>
+        <div class="cell small-9 content-container">
+          
+          <!-- Buttons Content -->
+          <div id="components-buttons" class="content-section">
+            <h1 class="main-title">Buttons</h1>
+            <include src="../components/buttons.html"></include>
+          </div>
+
+          <!-- Icons Content -->
+          <div id="components-icons" class="content-section">
+            <h1 class="main-title">Icons</h1>
+            <include src="../components/icons.html"></include>
+          </div>
+
+          <!-- Illustrations Content -->
+          <div id="components-illustrations" class="content-section">
+            <h1 class="main-title">Illustrations</h1>
+            <include src="../components/illustrations.html"></include>
+          </div>
+
+          <!-- Inputs Content -->
+          <div id="components-inputs" class="content-section">
+            <h1 class="main-title">Inputs</h1>
+            <include src="../components/inputs.html"></include>
+          </div>
+
+        </div>
+    </div>
+
+      <script src="../js/components.js" async defer></script>
+      
+    </body>
+</html>
