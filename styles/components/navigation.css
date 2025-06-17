@@ -144,6 +144,8 @@
     overflow-y: auto;
     padding: 16px 0 0 ;
     border-right: 1px solid var(--light-gray);
+
+    margin-top: 6rem;
 }
 
 .sidebar-header {
@@ -212,4 +214,44 @@
 
 .test {
     border: 1px solid red;
+}
+
+@media (max-width: 1440px) {
+    .sidebar {
+        width: 360px;
+    }
+
+    .sidebar-header {
+        margin-left: 4rem;
+    }
+
+    .nav-text {
+        width: 15rem;
+    }
+    
+    .nav-item {
+        text-align: left;
+        width: 17.125rem;
+        padding-left: 6rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .sidebar {
+        width: 256px;
+    }
+
+    .sidebar-header {
+        margin-left: 2rem;
+    }
+
+    .nav-text {
+        width: 12rem;
+    }
+    
+    .nav-item {
+        text-align: left;
+        width: 13rem;
+        padding-left: 2rem;
+    }
 }

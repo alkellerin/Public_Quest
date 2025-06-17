@@ -176,3 +176,10 @@ td {
     padding: 16px !important;
     align-items: left;
 }
+
+@media (max-width: 1024px) {
+    table {
+        width: 40rem !important;
+    }
+
+}

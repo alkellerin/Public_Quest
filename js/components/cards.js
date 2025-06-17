@@ -1,6 +1,5 @@
 // FAQ Animation
 const faqQuestions = document.querySelectorAll(".faq-question");
-console.log("hi");
 
 faqQuestions.forEach((question) => {
   question.addEventListener("click", () => {
