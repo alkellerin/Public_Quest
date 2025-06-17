@@ -22,6 +22,12 @@
 @import 'utilities/spacing.css';
 @import 'utilities/text.css';
 
+/* UNIVERSAL STYLES ------------------------------------------ */
 .content-section {
     margin-top: 7rem;
+    
+}
+
+.content-section.hidden {
+    display: none;
 }
