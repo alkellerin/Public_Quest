@@ -22,7 +22,7 @@
 @import 'utilities/spacing.css';
 @import 'utilities/text.css';
 
-/* UNIVERSAL STYLES ------------------------------------------ */
+/* UNIVERSAL PUBLIC QUEST STYLES ------------------------------------------ */
 .content-section {
     margin: 7rem 0 0 3rem;
     
@@ -30,4 +30,8 @@
 
 .content-section.hidden {
     display: none;
+}
+
+.style-guide-paragraph {
+    padding: 2rem;
 }

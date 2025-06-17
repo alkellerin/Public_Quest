@@ -66,7 +66,3 @@ var navItems = document.querySelectorAll('.nav-item');
             });
         }
 
-        // Initialize with first tab active
-        showContent('components-buttons');
-
-

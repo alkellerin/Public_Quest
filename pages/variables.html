@@ -33,14 +33,14 @@
         </div>
         <div class="cell small-9 content-container">
           
-          <!-- Buttons Content -->
+          <!-- Colors Content -->
           <div id="variables-colors" class="content-section">
             <h1 class="main-title">Colors</h1>
             <include src="variables/colors.html"></include>
           </div>
 
-          <!-- Icons Content -->
-          <div id="variables-typography" class="content-section">
+          <!-- Typography Content -->
+          <div id="variables-typography" class="content-section hidden">
             <h1 class="main-title">Typography</h1>
             <include src="variables/typography.html"></include>
           </div>
@@ -48,6 +48,7 @@
         </div>
     </div>
 
-      
+    <script src="../js/components/navigation.js" async defer> showContent('variables-colors');</script>
+
     </body>
 </html>
