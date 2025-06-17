@@ -10,7 +10,7 @@
 }
 
 .thumbnail_cover {
-    background-color: var(--blue);
+    background-color: var(--blue50);
     border-radius: 8px 8px 0px 0px;
     height: 158px;
     border: none;
@@ -37,7 +37,7 @@
     background-color: white;
 }
 .thumbnail_img2 {
-    background-color: var(--blue);
+    background-color: var(--blue50);
     border-radius: 8px 8px 0px 0px;
     height: 296px;
     border: none;
@@ -66,8 +66,8 @@
     height: 19rem;
     border: 2px solid var(--light-gray);
     border-radius: 8px;
-    color: var(--blue);
-    background-color: var(--yellow);
+    color: var(--blue50);
+    background-color: var(--yellow50);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -167,7 +167,7 @@ table {
 
 th {
     padding: 16px !important;
-    background-color: var(--blue);
+    background-color: var(--blue50);
     color: white;
     text-align: left;
 }

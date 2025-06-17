@@ -109,7 +109,7 @@
 }
 
 .login-btn {
-    background-color: var(--yellow);
+    background-color: var(--yellow50);
     color: #333;
     padding: 10px 16px;
     border: none;
@@ -172,19 +172,19 @@
 }
 
     .nav-item.active {
-        background-color: var(--blue);
+        background-color: var(--blue50);
         color: white;
         font-weight: 700;
     }
 
     .nav-item:hover {
         background-color: var(--background-color3);
-        color: var(--blue);
+        color: var(--blue50);
         font-weight: 700;
     }
 
     .nav-item.active:hover {
-        background-color: var(--blue);
+        background-color: var(--blue50);
         color: var(--white);
         font-weight: 700;
     }
