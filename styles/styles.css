@@ -1,3 +1,5 @@
+@import 'navbar.css';
+
 /* Base styles */
 @import 'base/variables.css';
 @import 'base/typography.css';
@@ -34,4 +36,9 @@
 
 .style-guide-paragraph {
     padding: 2rem;
+}
+
+.intro-paragraph {
+    padding: 7rem;
+    padding-top: 10rem;
 }
